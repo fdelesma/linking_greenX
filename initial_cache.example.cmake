@@ -18,6 +18,6 @@ set(CMAKE_C_FLAGS "-O3 -ip -fp-model precise -std=gnu99" CACHE STRING "")
 ###############
 set(INC_PATHS "$ENV{GX_ROOT}/install/include/modules" CACHE STRING "")
 set(LIB_PATHS "$ENV{MKLROOT}/lib/intel64" "$ENV{GX_ROOT}/install/lib" CACHE STRING "")
-set(LIBS "mkl_scalapack_lp64 mkl_blacs_intelmpi_lp64 mkl_intel_lp64 mkl_sequential mkl_core gx_minimax" CACHE STRING "")
+set(LIBS "mkl_scalapack_lp64 mkl_blacs_intelmpi_lp64 mkl_intel_lp64 mkl_sequential mkl_core gx_minimax GXCommon" CACHE STRING "")
 set(USE_GREENX ON CACHE BOOL "")
 set(USE_SCALAPACK ON CACHE BOOL "")
