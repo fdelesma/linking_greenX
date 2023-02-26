@@ -47,7 +47,9 @@ Enable the linking to greenX:
 
     set(USE_GREENX ON CACHE BOOL "")
 
-Switch to the branch 
+An example of the `initial_cache` file can be find [here](https://github.com/fdelesma/linking_greenX/blob/main/initial_cache.example.cmake). This example compiles FHI-aims with scalapack and greenX libraries.
+
+Switch to the development branch
 
     git checkout linking_greenX_v1
 
@@ -55,7 +57,7 @@ To build all libraries, set up a build directory, change to it and run cmake con
 
     mkdir build_greenX
     cd build_greenX
-    cmake -C ../initial.cache.greenX.cmake ..
+    cmake -C ../initial_cache.example.cmake ..
 
 Finally compile FHI-aims 
 
