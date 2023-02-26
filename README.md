@@ -41,7 +41,7 @@ Or if you have defined `$GX_ROOT`
     
 Add `gx_minimax` component of the greenX to the `LIBS` environment variable:
 
-    set(LIBS "gx_minimax name-of-other-lib-1 name-of-other-lib-2" CACHE STRING "")
+    set(LIBS "gx_minimax GXCommon name-of-other-lib-1 name-of-other-lib-2" CACHE STRING "")
 
 Enable the linking to greenX:
 
